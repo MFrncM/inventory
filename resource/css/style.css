@@ -1,0 +1,60 @@
+body {
+  background-color: #e5e5f7;
+  opacity: 1;
+  background-image: radial-gradient(#344A53 1.1500000000000001px, #e5e5f7 1.1500000000000001px);
+  background-size: 23px 23px;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+td {
+  text-align: center;
+}
+.invText{
+  font-family: 'Righteous', cursive;
+  font-size: 100px;
+  text-shadow: 2px 3px 5px rgba(0, 0, 0, 1);
+}
+.button_container {
+  font-family: 'Kanit', sans-serif;
+  border-radius: 15px;
+  padding: 15px;
+  /* width: 200px;
+  height: 100px; */
+  background-color: #E1F1ED;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.table_container {
+  font-family: 'Kanit', sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: #E1F1ED;
+  border-radius: 25px;
+  margin-top: 50px;
+  padding: 25px;
+}
+
+#myTable {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+/* .btnBTN {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+} */
+
+.btn {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.img-thumbnail {
+  padding: 50px;
+  width: 80px;
+  /* border-radius: 42px; */
+  background: linear-gradient(45deg, #f1fffe, #cbd9d5);
+  /* box-shadow: 16px -16px 79px #5a605f,
+    -16px 16px 79px #ffffff; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
