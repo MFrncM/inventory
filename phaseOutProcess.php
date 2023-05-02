@@ -3,5 +3,5 @@
 
   $phaseout = new phaseout($_GET['id']);
   $phaseout->phaseOutItem();
-  header('Location:viewTable.php?status=phasedout')
+  header('Location:viewTable.php?status=phasedout');
  ?>
