@@ -1,12 +1,12 @@
 <?php
   class config {
-    private $user = 'root';
-    private $password = '';
+    private $user = 'port7639_montecillomarco';
+    private $password = 'marco123';
     private $pdo = null;
 
     public function con(){
       try {
-        $this->pdo = new PDO('mysql:host=127.0.0.1:3306;dbname=inventory', $this->user, $this->password);
+        $this->pdo = new PDO('mysql:local=109.106.254.158:3306;dbname=port7639_inventorysystem_MMontecillo', $this->user, $this->password);
       } catch (PDOException $e){
         die($e->getMessage());
       }
